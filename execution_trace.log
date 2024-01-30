@@ -17,3 +17,23 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is execution_trace.log
+PS C:\Trainings-2021\Vendors\IIHT\MassMutual\cypress-2024\massmutual-cypress> npx cypress run
+  │ Spec Ran:     todo.cy.js                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ √  todo.cy.js                               00:05        6        6        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    √  All specs passed!                        00:05        6        6        -        -        -
+PS C:\Trainings-2021\Vendors\IIHT\MassMutual\cypress-2024\massmutual-cypress> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240130144550
+**********************
