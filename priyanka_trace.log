@@ -1,0 +1,10 @@
+**********************
+PowerShell transcript start
+Start time: 20240212163754
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is priyanka_trace.log
+]633;E;Start-Transcript -Path priyanka_trace.log;f8889522-cb53-4ba5-bb5c-60de09f19986]633;D;0]633;A]633;P;Cwd=/Users/ps15497/Documents/Learnings/CypressProjects/massmutual-cypressPS /Users/ps15497/Documents/Learnings/CypressProjects/massmutual-cypress> ]633;B
