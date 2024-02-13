@@ -17,7 +17,7 @@ describe('This is a simple activity', () => {
   })
 
   it('The Home page has 44 Links', () => {
-    cy.get('a').should('have.length', 2)
+    cy.get('a').should('have.length', 44)
    
   })
 })
