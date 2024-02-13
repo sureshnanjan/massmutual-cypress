@@ -1,0 +1,558 @@
+**********************
+PowerShell transcript start
+Start time: 20240207125239
+Username: MBP236H6XV96\ss37738
+RunAs User: MBP236H6XV96\ss37738
+Configuration Name: 
+Machine: MBP236H6XV96 (Unix 14.2.1)
+Host Application: /opt/homebrew/Cellar/powershell/7.4.1/libexec/pwsh.dll -noexit -command . "/Applications/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration.ps1"
+Process ID: 46875
+PSVersion: 7.4.1
+PSEdition: Core
+GitCommitId: 7.4.1
+OS: Darwin 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:54:51 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T6030
+Platform: Unix
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is Shwetanjali_rec.log
+]633;E;start-Transcript -Path Shwetanjali_rec.log;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;0]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/todo.cy.js" --headed
+
+
+DevTools listening on ws://127.0.0.1:51470/devtools/browser/2e54bd46-9903-401a-a3b0-862043136714
+DevTools listening on ws://127.0.0.1:51470/devtools/browser/2e54bd46-9903-401a-a3b0-862043136714
+2024-02-07 12:53:43.992 Cypress[47086:5608314] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-07 12:53:43.992 Cypress[47086:5608314] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.4                                                                         │
+  │ Browser:        Electron 114                                                                   │
+  │ Node Version:   v20.10.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          1 found (todo.cy.js)                                                           │
+  │ Searched:       cypress/e2e/1-getting-started/todo.cy.js                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  todo.cy.js                                                                      (1 of 1)
+
+
+  example to-do app
+    ✓ displays two todo items by default (536ms)
+    ✓ can add new todo items (404ms)
+    ✓ can check off an item as completed (199ms)
+    with a checked task
+      ✓ can filter for uncompleted tasks (278ms)
+      ✓ can filter for completed tasks (299ms)
+      ✓ can delete all completed tasks (292ms)
+
+
+  6 passing (3s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     todo.cy.js                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  todo.cy.js                               00:03        6        6        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:03        6        6        -        -        -
+
+]633;E;npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/todo.cy.js" --headed;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;0]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/another.cy.js" --headed
+
+
+DevTools listening on ws://127.0.0.1:51524/devtools/browser/4bf98080-b5cb-4c4b-ad18-8edba8f6aecf
+DevTools listening on ws://127.0.0.1:51524/devtools/browser/4bf98080-b5cb-4c4b-ad18-8edba8f6aecf
+2024-02-07 12:53:59.642 Cypress[48473:5610672] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-07 12:53:59.642 Cypress[48473:5610672] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.4                                                                         │
+  │ Browser:        Electron 114                                                                   │
+  │ Node Version:   v20.10.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          1 found (another.cy.js)                                                        │
+  │ Searched:       cypress/e2e/1-getting-started/another.cy.js                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  another.cy.js                                                                   (1 of 1)
+
+
+  This is a simple activity
+    1) The Home page has 44 Links
+
+
+  0 passing (10s)
+  1 failing
+
+  1) This is a simple activity
+       The Home page has 44 Links:
+
+      AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '46', expected '2'.
+      + expected - actual
+
+      -46
+      +2
+
+      at Context.eval (webpack://massmutual-cypress/./cypress/e2e/1-getting-started/another.cy.js:20:16)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     9 seconds                                                                        │
+  │ Spec Ran:     another.cy.js                                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/ss37738/Documents/cypressTraining/massmutual-cypress/cypress/screenshots/    (3024x1728)
+     another.cy.js/This is a simple activity -- The Home page has 44 Links (failed).p
+     ng
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  another.cy.js                            00:09        1        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     00:09        1        -        1        -        -
+
+]633;E;npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/another.cy.js" --headed;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;1]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/another.cy.js" --headless
+
+
+DevTools listening on ws://127.0.0.1:51607/devtools/browser/9b79d872-4b23-47d0-bd30-5c63b0977c25
+DevTools listening on ws://127.0.0.1:51607/devtools/browser/9b79d872-4b23-47d0-bd30-5c63b0977c25
+2024-02-07 12:56:31.947 Cypress[50021:5614575] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-07 12:56:31.947 Cypress[50021:5614575] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.4                                                                         │
+  │ Browser:        Electron 114 (headless)                                                        │
+  │ Node Version:   v20.10.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          1 found (another.cy.js)                                                        │
+  │ Searched:       cypress/e2e/1-getting-started/another.cy.js                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  another.cy.js                                                                   (1 of 1)
+
+
+  This is a simple activity
+    1) The Home page has 44 Links
+
+
+  0 passing (10s)
+  1 failing
+
+  1) This is a simple activity
+       The Home page has 44 Links:
+
+      AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '46', expected '2'.
+      + expected - actual
+
+      -46
+      +2
+
+      at Context.eval (webpack://massmutual-cypress/./cypress/e2e/1-getting-started/another.cy.js:20:16)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     10 seconds                                                                       │
+  │ Spec Ran:     another.cy.js                                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/ss37738/Documents/cypressTraining/massmutual-cypress/cypress/screenshots/    (2560x1440)
+     another.cy.js/This is a simple activity -- The Home page has 44 Links (failed).p
+     ng
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  another.cy.js                            00:10        1        -        1        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     00:10        1        -        1        -        -
+
+]633;E;npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/another.cy.js" --headless;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;1]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/todo.cy.js" --headless
+
+
+DevTools listening on ws://127.0.0.1:51667/devtools/browser/ea58e38b-bf59-466d-825a-bebb7fe73bcb
+DevTools listening on ws://127.0.0.1:51667/devtools/browser/ea58e38b-bf59-466d-825a-bebb7fe73bcb
+2024-02-07 12:57:20.152 Cypress[51475:5617353] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-07 12:57:20.152 Cypress[51475:5617353] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.4                                                                         │
+  │ Browser:        Electron 114 (headless)                                                        │
+  │ Node Version:   v20.10.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          1 found (todo.cy.js)                                                           │
+  │ Searched:       cypress/e2e/1-getting-started/todo.cy.js                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  todo.cy.js                                                                      (1 of 1)
+
+
+  example to-do app
+    ✓ displays two todo items by default (631ms)
+    ✓ can add new todo items (416ms)
+    ✓ can check off an item as completed (208ms)
+    with a checked task
+      ✓ can filter for uncompleted tasks (273ms)
+      ✓ can filter for completed tasks (274ms)
+      ✓ can delete all completed tasks (281ms)
+
+
+  6 passing (3s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     todo.cy.js                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✔  todo.cy.js                               00:03        6        6        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✔  All specs passed!                        00:03        6        6        -        -        -
+
+]633;E;npx cypress run px cypress run --spec "cypress/e2e/1-getting-started/todo.cy.js" --headless;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;0]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>npx cypress run
+
+
+DevTools listening on ws://127.0.0.1:51790/devtools/browser/a57045f3-b922-423b-9188-ca3470d0840f
+DevTools listening on ws://127.0.0.1:51790/devtools/browser/a57045f3-b922-423b-9188-ca3470d0840f
+2024-02-07 13:04:14.347 Cypress[53430:5625098] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-07 13:04:14.347 Cypress[53430:5625098] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.4                                                                         │
+  │ Browser:        Electron 114 (headless)                                                        │
+  │ Node Version:   v20.10.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          2 found (another.cy.js, todo.cy.js)                                            │
+  │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  another.cy.js                                                                   (1 of 2)
+
+
+  This is a simple activity
+    1) The Home page has 44 Links
+
+
+  0 passing (10s)
+  1 failing
+
+  1) This is a simple activity
+       The Home page has 44 Links:
+
+      AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '46', expected '2'.
+      + expected - actual
+
+      -46
+      +2
+
+      at Context.eval (webpack://massmutual-cypress/./cypress/e2e/1-getting-started/another.cy.js:20:16)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     9 seconds                                                                        │
+  │ Spec Ran:     another.cy.js                                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/ss37738/Documents/cypressTraining/massmutual-cypress/cypress/screenshots/    (2560x1440)
+     another.cy.js/This is a simple activity -- The Home page has 44 Links (failed).p
+     ng
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  todo.cy.js                                                                      (2 of 2)
+
+
+  example to-do app
+    ✓ displays two todo items by default (797ms)
+    ✓ can add new todo items (421ms)
+    ✓ can check off an item as completed (207ms)
+    with a checked task
+      ✓ can filter for uncompleted tasks (277ms)
+      ✓ can filter for completed tasks (283ms)
+      ✓ can delete all completed tasks (280ms)
+
+
+  6 passing (3s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     3 seconds                                                                        │
+  │ Spec Ran:     todo.cy.js                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  another.cy.js                            00:09        1        -        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  todo.cy.js                               00:03        6        6        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 2 failed (50%)                      00:13        7        6        1        -        -
+
+]633;E;npx cypress run;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;1]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>npx cypress run --headed
+
+
+DevTools listening on ws://127.0.0.1:51907/devtools/browser/d5912033-406c-4fea-b6ed-fe39d2a3ac28
+DevTools listening on ws://127.0.0.1:51907/devtools/browser/d5912033-406c-4fea-b6ed-fe39d2a3ac28
+2024-02-07 13:04:42.767 Cypress[54818:5627510] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+2024-02-07 13:04:42.767 Cypress[54818:5627510] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        13.6.4                                                                         │
+  │ Browser:        Electron 114                                                                   │
+  │ Node Version:   v20.10.0 (/usr/local/bin/node)                                                 │
+  │ Specs:          2 found (another.cy.js, todo.cy.js)                                            │
+  │ Searched:       cypress/e2e/**/*.cy.{js,jsx,ts,tsx}                                            │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  another.cy.js                                                                   (1 of 2)
+
+
+  This is a simple activity
+    1) The Home page has 44 Links
+
+
+  0 passing (9s)
+  1 failing
+
+  1) This is a simple activity
+       The Home page has 44 Links:
+
+      AssertionError: Timed out retrying after 4000ms: Too many elements found. Found '46', expected '2'.
+      + expected - actual
+
+      -46
+      +2
+
+      at Context.eval (webpack://massmutual-cypress/./cypress/e2e/1-getting-started/another.cy.js:20:16)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        1                                                                                │
+  │ Passing:      0                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     9 seconds                                                                        │
+  │ Spec Ran:     another.cy.js                                                                    │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /Users/ss37738/Documents/cypressTraining/massmutual-cypress/cypress/screenshots/    (3024x1728)
+     another.cy.js/This is a simple activity -- The Home page has 44 Links (failed).p
+     ng
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+
+  Running:  todo.cy.js                                                                      (2 of 2)
+
+
+  example to-do app
+    ✓ displays two todo items by default (414ms)
+    ✓ can add new todo items (454ms)
+    ✓ can check off an item as completed (220ms)
+    with a checked task
+      ✓ can filter for uncompleted tasks (293ms)
+      ✓ can filter for completed tasks (356ms)
+      ✓ can delete all completed tasks (300ms)
+
+
+  6 passing (3s)
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        6                                                                                │
+  │ Passing:      6                                                                                │
+  │ Failing:      0                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  0                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     2 seconds                                                                        │
+  │ Spec Ran:     todo.cy.js                                                                       │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  another.cy.js                            00:09        1        -        1        -        - │
+  ├────────────────────────────────────────────────────────────────────────────────────────────────┤
+  │ ✔  todo.cy.js                               00:02        6        6        -        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 2 failed (50%)                      00:12        7        6        1        -        -
+
+]633;E;npx cypress run --headed;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;1]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>stop transcript
+stop: The term 'stop' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+stop: The term 'stop' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+]633;E;stop transcript;aa4982ab-3471-4fbf-b11d-7f5022c8f624]633;D;1]633;A]633;P;Cwd=/Users/ss37738/Documents/cypressTraining/massmutual-cypressPS /Users/ss37738/Documents/cypressTraining/massmutual-cypress> ]633;B
+PS>Stop-Transcript
+**********************
+PowerShell transcript end
+End time: 20240207142612
+**********************
