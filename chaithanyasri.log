@@ -19,3 +19,69 @@ WSManStackVersion: 3.0
 **********************
 Transcript started, output file is chaithanyasri.log
 ]633;E;start-transcript -path chaithanyasri.log;21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS>git add *
+The following paths are ignored by one of your .gitignore files:
+The following paths are ignored by one of your .gitignore files:
+node_modules
+node_modules
+hint: Use -f if you really want to add them.
+hint: Use -f if you really want to add them.
+hint: Turn this message off by running
+hint: Turn this message off by running
+hint: "git config advice.addIgnoredFile false"
+hint: "git config advice.addIgnoredFile false"
+]633;E;git add *;21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;1]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS>git commit -m "chaithu first commit"
+Author identity unknown
+Author identity unknown
+
+
+*** Please tell me who you are.
+*** Please tell me who you are.
+
+
+Run
+Run
+
+
+  git config --global user.email "you@example.com"
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+  git config --global user.name "Your Name"
+
+
+to set your account's default identity.
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+Omit --global to set the identity only in this repository.
+
+
+fatal: unable to auto-detect email address (got 'ca27726@MBP23W2W5YWQ.(none)')
+fatal: unable to auto-detect email address (got 'ca27726@MBP23W2W5YWQ.(none)')
+]633;E;git commit -m "chaithu first commit";21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;1]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS> git config --global user.email "canagandula54@massmutual.com"
+]633;E; git config --global user.email "canagandula54@massmutual.com";21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS>git config --global user.name "Chaithanyasri"
+]633;E;git config --global user.name "Chaithanyasri";21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS>git commit -m "chaithu first commit"
+[chaithanyasrinew-feature d4037d3] chaithu first commit
+ 1 file changed, 21 insertions(+)
+ create mode 100644 chaithanyasri.log
+]633;E;git commit -m "chaithu first commit";21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS>git push -u origin chaithanyasrinew-feature
+To https://github.com/sureshnanjan/massmutual-cypress.git
+To https://github.com/sureshnanjan/massmutual-cypress.git
+   69b418e..d4037d3  chaithanyasrinew-feature -> chaithanyasrinew-feature
+   69b418e..d4037d3  chaithanyasrinew-feature -> chaithanyasrinew-feature
+branch 'chaithanyasrinew-feature' set up to track 'origin/chaithanyasrinew-feature'.
+]633;E;git push -u origin chaithanyasrinew-feature;21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS>git push -u origin chaithanyasrinew-feature
+Everything up-to-date
+Everything up-to-date
+branch 'chaithanyasrinew-feature' set up to track 'origin/chaithanyasrinew-feature'.
+]633;E;git push -u origin chaithanyasrinew-feature;21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
+PS>git push -u origin chaithanyasrinew-feature
+Everything up-to-date
+Everything up-to-date
+branch 'chaithanyasrinew-feature' set up to track 'origin/chaithanyasrinew-feature'.
+]633;E;git push -u origin chaithanyasrinew-feature;21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
