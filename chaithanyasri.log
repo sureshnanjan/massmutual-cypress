@@ -1,0 +1,21 @@
+**********************
+PowerShell transcript start
+Start time: 20240213130224
+Username: MBP23W2W5YWQ\ca27726
+RunAs User: MBP23W2W5YWQ\ca27726
+Configuration Name: 
+Machine: MBP23W2W5YWQ (Unix 14.2.1)
+Host Application: /usr/local/microsoft/powershell/7/pwsh.dll -noexit -command . "/private/var/folders/c1/3pvqg8dj6w72xw17mf1y7k6w0000gp/T/AppTranslocation/BC85C2C2-1804-4630-805E-7B3638D3A135/d/Visual Studio Code.app/Contents/Resources/app/out/vs/workbench/contrib/terminal/browser/media/shellIntegration.ps1"
+Process ID: 22491
+PSVersion: 7.4.1
+PSEdition: Core
+GitCommitId: 7.4.1
+OS: Darwin 23.2.0 Darwin Kernel Version 23.2.0: Wed Nov 15 21:54:51 PST 2023; root:xnu-10002.61.3~2/RELEASE_ARM64_T6030
+Platform: Unix
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1, 6.0, 7.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+WSManStackVersion: 3.0
+**********************
+Transcript started, output file is chaithanyasri.log
+]633;E;start-transcript -path chaithanyasri.log;21e3a1f6-a965-4633-8f8d-8281f174cfde]633;D;0]633;A]633;P;Cwd=/Users/ca27726/massmutual-cypressPS /Users/ca27726/massmutual-cypress> ]633;B
