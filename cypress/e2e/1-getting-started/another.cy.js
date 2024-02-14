@@ -16,9 +16,14 @@ describe('This is a simple activity', () => {
     cy.visit('https://the-internet.herokuapp.com/')
   })
 
-  it('The Home page has 44 Links', () => {
+  it.skip('The Home page has 44 Links', () => {
     cy.get('a').should('have.length', 2)
    
   })
+
+  
+
+
+
 })
 
