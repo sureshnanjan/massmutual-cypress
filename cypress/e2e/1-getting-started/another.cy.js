@@ -16,8 +16,15 @@ describe('This is a simple activity', () => {
     cy.visit('https://the-internet.herokuapp.com/')
   })
 
-  it.skip('The Home page has 44 Links', () => {
-    cy.get('a').should('have.length', 2)
+  it.only('The Home page has 44 Links', () => {
+    cy.get('li').then((result)=>{
+      cy.wrap(result).invoke("text").as("linkTexts")
+
+      cy.get('@linkTextx').forEach(element => {
+        console.log(element);
+      });
+      
+    })
    
   })
 

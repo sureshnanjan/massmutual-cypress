@@ -9,8 +9,6 @@
     "cypress:open": "cypress open",
     "cypress:runsilent": "cypress run",
     "cypress:runwithbrowser": "cypress run --headed"
-    
-
   },
   "keywords": [
     "cypress"
@@ -19,6 +17,7 @@
   "license": "ISC",
   "devDependencies": {
     "cypress": "^13.6.3",
+    "cypress-mochawesome-reporter": "^3.8.1",
     "typescript": "^5.3.3"
   }
 }
