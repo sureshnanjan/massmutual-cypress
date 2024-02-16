@@ -4,7 +4,7 @@
   "description": "Training Project for Cypress",
   "main": "index.js",
   "type": "module",
-  "scripts": {
+    "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:runsilent": "cypress run",

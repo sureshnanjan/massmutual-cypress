@@ -16,7 +16,14 @@ describe("Heroku App Page scenarios", ()=>{
     it.only("Broken Image Page has correct number of Images", ()=>{
         const page = new HomePage()
         const navpage = page.gotoExample(HerokuAppPageNames.broken_images)
-        navpage.getAvailableImages().should("have.length",3)
+        navpage.getAvailableImages().then((subject)=>{
+            console.log("The command started");
+            debugger;
+            console.log("I am here");
+            return subject;
+        }).should("have.lenght", 2);
+
+        
 
 
     });
