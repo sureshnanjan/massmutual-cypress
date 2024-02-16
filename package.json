@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "cypress run --browser=chrome",
     "cypress:open": "cypress open",
     "cypress:runsilent": "cypress run",
     "cypress:runwithbrowser": "cypress run --headed"
