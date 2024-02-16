@@ -4,7 +4,7 @@
   "description": "Training Project for Cypress",
   "main": "index.js",
   "type": "module",
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress:open": "cypress open",
     "cypress:runsilent": "cypress run",
@@ -18,6 +18,12 @@
   "devDependencies": {
     "cypress": "^13.6.3",
     "cypress-mochawesome-reporter": "^3.8.1",
+    "cypress-on-fix": "^1.0.2",
+    "esbuild": "^0.20.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0"
   }
 }
