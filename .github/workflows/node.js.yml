@@ -3,12 +3,8 @@
 
 name: Demo for CI Mass Mutual
 
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-
+on: [workflow_dispatch]
+  
 jobs:
   build:
 
