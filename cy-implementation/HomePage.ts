@@ -1,6 +1,7 @@
 import { HerokuAppPageNames } from "../operations/heroku_app_type";
 import { HomePageActions } from "../operations/home_page_actions";
 import { AddRemoveElements } from "./AddRemoveElementsPage";
+import { BrokenImagesPage } from "./BrokenImagesPage";
 
 export class HomePage implements HomePageActions{
     readonly titleLocator:string;
@@ -32,7 +33,9 @@ export class HomePage implements HomePageActions{
             case HerokuAppPageNames.add_remove:
                 return new AddRemoveElements();
                 break;
-        
+            case HerokuAppPageNames.broken_images:
+                return new BrokenImagesPage();
+                break;
             default:
                 return this;
                 break;
